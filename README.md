@@ -45,7 +45,7 @@ pom.xml
             <artifactId>rxtx</artifactId>
             <version>2.2pre2</version>
             <type>so</type>
-            <classifier>bin</classifier>
+            <classifier>[i686-pc-linux-gnu|x86_64-unknown-linux-gnu]</classifier>
             <scope>runtime</scope>
         </dependency>
         ...
